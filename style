@@ -89,11 +89,18 @@ img {
   color: #FCFBF5;
   padding: 25px;
   font-family: "Open Sans Condensed";
-  background-image: url("http://i.imgur.com/cEpZH1L.png");
+  background-image: url("http://i.imgur.com/RdGS8WH.gif");
 }
 
-.line h2 {
+.menu h2 {
   margin-top: 10px;
+  font-family: "Open Sans Condensed";
+  color: #fbf9ea;
+}
+
+.menu h3 {
+  font-family: "Open Sans Condensed";
+  color: #fbf9ea;
 }
 
 .pitch {
