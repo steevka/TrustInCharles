@@ -1,0 +1,150 @@
+a:link {
+  color: #5E7C88;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+
+  position:relative;
+  background: transparent;
+
+}
+
+.jumbotron .container {
+  position: relative;
+  text-align: center;
+
+}
+
+.jumbotron .bottom-container {
+    position: absolute; bottom: 0; left: 0;
+    border: 1px solid black;
+    border-color: #FCFBF5;
+    background-color: #FCFBF5;
+    opacity: 0.5;
+    padding: 10px;
+      }
+
+.jumbotron h1 {
+  color: rgba(254, 180, 28, 0.8);
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-size: 130px;
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+     max-width: 100%;
+  height: auto;
+}
+
+.jumbotron h2 {
+	margin: 10px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #fbf9ea;
+  color: #4B5F87;
+  padding-bottom: 0px;
+}
+
+.learn-more h2 {
+
+    font-size: 18px;
+  font-size: 33px;
+
+ }
+
+.learn-more h3 {
+  color: #5E7C88;
+  font-family: 'Shift', sans-serif;
+  font-size: 25px;
+}
+
+.logo {
+	   display:block;
+    margin:auto;
+}
+
+.line {
+  color: #FCFBF5;
+  padding: 25px;
+  font-family: "Open Sans Condensed";
+  background-image: url("http://i.imgur.com/cEpZH1L.png");
+}
+
+.line h2 {
+  margin-top: 10px;
+}
+
+.pitch {
+	  background-color: #fbf9ea;
+}
+
+.pitch h2 {
+	  color: #FEB41C;
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    --text-shadow: 1px 1px #2f3239;
+}
+
+#instafeed {
+	background-color: #fbf9ea;
+}
+
+#instafeed a {
+  background-color: #5e7c88;
+  padding:2px 2px 2px 2px;
+  margin:10px;
+  display:inline-block;
+  border-radius: 2px;
+  position:relative;
+}
+
+#instafeed .likes {
+  background:rgba(254,180,28,0.75);
+  font-family: 'Shift', sans-serif;
+  font-size:2em;
+  position:absolute;
+  color:#ffffff;
+  right:0px;
+  top:0px;
+  left:0px;
+  opacity:0;
+  text-align:center;
+
+  text-shadow:0 1px rgba(0,0,0,0.5);
+  -webkit-font-smoothing:antialiased;
+  -webkit-transition: opacity 100ms ease;
+	-moz-transition: opacity 100ms ease;
+	-o-transition: opacity 100ms ease;
+	-ms-transition: opacity 100ms ease;
+	transition: opacity 100ms ease;
+}
+
+#instafeed a:hover .likes {
+  opacity:1;
+}
+
+.cross {
+	  background-color: #FEB41C;
+}
