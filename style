@@ -30,7 +30,6 @@ img {
 .jumbotron .container {
   position: relative;
   text-align: center;
-
 }
 
 .jumbotron .bottom-container {
