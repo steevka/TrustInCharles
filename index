@@ -10,6 +10,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:light&amp;v1" rel="stylesheet" type="text/css" />
 	<link href="style.css" rel="stylesheet" />
 	<link href="animate.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="favicon.ico" />
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
 </head>
 <body><!--    <div class="nav">
@@ -27,7 +28,7 @@
 <div class="jumbotron" data-image-src="http://i.imgur.com/aqnCLoV.gif" data-parallax="scroll">
 <div class="container">
 <div class="row">
-<img alt="Logo" class="img-responsive" height="236" src="http://i.imgur.com/3JwqGbH.gif" width="604" /></div>
+<img alt="Logo" class="img-responsive" height="236" src="http://i.imgur.com/bZAyMaX.png" width="604" style="padding:20px;"/></div>
 </div>
 <!--      <div class="bottom-container">
 	  <h2>The cleanest cuts in NEO</h2>
@@ -38,7 +39,7 @@
 <div class="learn-more">
 	<div class="banner">
 		<div align="center">
-			<div class="wow fadeIn">
+			<div class="wow fadeIn" data-wow-offset="150">
 			<img class="img-responsive" src="http://i.imgur.com/l7up07w.gif" width="500"/>
 		</div>
 		<br/>
@@ -47,7 +48,7 @@
 <div align="center">
 <div class="row">
 <div class="col-md-5">
-<div class="wow fadeInLeftBig">
+<div>
 <h3>Saturday | 10am-4pm<br />
 <br />
 Mon Tues Wed Fri | 10am-6pm</h3>
@@ -55,14 +56,14 @@ Mon Tues Wed Fri | 10am-6pm</h3>
 </div>
 
 <div class="col-md-2">
-<div class="wow fadeInUpBig"><br />
+<div class="wow flipInY" data-wow-offset="150"><br />
 <br />
 <img alt="TIC" src="http://i.imgur.com/QEnZyZQ.png" width="50px" /><br />
 </div>
 </div>
 
 <div class="col-md-5">
-<div class="wow fadeInRightBig">
+<div>
 <h3><a href="http://maps.apple.com/?q=41.0584047,-81.4493766">2214 East Market Street, Akron</a><br />
 <br />
 <a href="tel:330-472-0497">330.472.0497</a></h3>
@@ -80,15 +81,15 @@ Mon Tues Wed Fri | 10am-6pm</h3>
 <div class=":col-md-4"></div>
 
 <div class=":col-md-4">
-<div class="wow flipInX" data-wow-offset="50">
+<div class="wow flipInX" data-wow-offset="150">
 	<div class="menu">
 <h2>The cleanest cuts around</h2>
 
-<h3>$11 haircut<br />
-+$2 razor part<br />
-+$11 shave<br />
-$5 breard trim<br />
-$16 straight razor shave</h3>
+<h3>$11........................haircut<br />
++$2....................razor part<br />
++$11........................shave<br />
+$5....................beard trim<br />
+$16.....straight razor shave</h3>
 </div>
 </div>
 <div class=":col-md-4"></div>
@@ -103,15 +104,15 @@ $16 straight razor shave</h3>
 	<div class="container">
 		<br/>
 		<br/>
-<div class="wow bounceInUp" data-wow-offset="50"><a href="http://instagram.com/trustincharles"><img src="http://i.imgur.com/TvsT0gl.png" width="300"/></a></div>
+<div class="wow flipInY" data-wow-offset="150"><a href="http://instagram.com/trustincharles"><img src="http://i.imgur.com/TvsT0gl.png" width="300"/></a></div>
 <br/>
 </div>
 </div>
 
 <div class="container">
 <div class="row">
-<div class="col-xs-12">
-<div class="wow bounceInUp">
+<div class="col-md-12">
+<div>
 <div id="instafeed"></div>
 </div>
 </div>
