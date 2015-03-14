@@ -1,7 +1,13 @@
-img {
-    display: block;
+a:link {
+  color: #5E7C88;
+}
+
+#logo {
+    display: flex;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;}
 
 .nav a {
   color: #5a5a5a;
@@ -16,63 +22,32 @@ img {
 }
 
 .jumbotron {
-  height: 46i 0px;
-  position:relative;
-  background: transparent;
-
+  height: 100vh;
+  background-image: url("http://i.imgur.com/eQQLr0D.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: height 999999s;
 }
 
-.jumbotron .container {
-  position: relative;
-  text-align: center;
-
-}
-
-.jumbotron .bottom-container {
-    position: absolute; bottom: 0; left: 0;
-    border: 1px solid black;
-    border-color: #FCFBF5;
-    background-color: #FCFBF5;
-    opacity: 0.5;
-    padding: 10px;
-      }
-
-.jumbotron h1 {
-  color: rgba(254, 180, 28, 0.8);
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
-    font-size: 130px;
-    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
-    animation-delay: 1s;
-     max-width: 100%;
-  height: auto;
-}
-
-.jumbotron h2 {
-	margin: 10px;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
 
 .learn-more {
-  background-color: #FCFBF5;
+  background-color: #fbf9ea;
   color: #4B5F87;
   padding-bottom: 0px;
 }
 
 .learn-more h2 {
-
-    font-size: 18px;
-  font-size: 33px;
+  color: #5E7C88;
+  font-size: 25px;
 
  }
 
 .learn-more h3 {
   color: #5E7C88;
   font-family: 'Shift', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .logo {
@@ -81,17 +56,25 @@ img {
 }
 
 .line {
-  color: #363f45;
-  background-color: rgba(252, 251, 245, 0.5);
+  color: #FCFBF5;
   padding: 25px;
+  font-family: "Open Sans Condensed";
+  background-image: url("http://i.imgur.com/RdGS8WH.gif");
 }
 
-.line h2 {
+.menu h2 {
   margin-top: 10px;
+  font-family: 'Shift', sans-serif;
+  color: #fbf9ea;
+}
+
+.menu h3 {
+  font-family: 'Shift', sans-serif;
+  color: #fbf9ea;
 }
 
 .pitch {
-	  background-color: #FCFBF5;
+	  background-color: #fbf9ea;
 }
 
 .pitch h2 {
@@ -102,7 +85,7 @@ img {
 }
 
 #instafeed {
-	background-color: #FCFBF5;
+	background-color: #fbf9ea;
 }
 
 #instafeed a {
@@ -125,7 +108,7 @@ img {
   left:0px;
   opacity:0;
   text-align:center;
-  line-height:310px;
+
   text-shadow:0 1px rgba(0,0,0,0.5);
   -webkit-font-smoothing:antialiased;
   -webkit-transition: opacity 100ms ease;
@@ -141,4 +124,34 @@ img {
 
 .cross {
 	  background-color: #FEB41C;
+}
+
+@media (min-width: @screen-sm-min) {
+  h2 {
+    font-size: 35px;
+   }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: @screen-md-min) {
+  h2 {
+    font-size: 40px;
+   }
+
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: @screen-lg-min) {
+  h2 {
+    font-size: 45px;
+   }
+
+  h3 {
+    font-size: 30px;
+  }
 }
